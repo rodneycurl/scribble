@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<%= if !current_user %>
+  
 <h1 class='logo'><%= link_to "Scribble", root_path %></h1>
 
 <%= yield %>
